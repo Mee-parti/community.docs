@@ -20,15 +20,15 @@ Code for Korea Documents
 #### 1. 폴더 구조
 - `[yyyy-mm-dd][category] {title}`의 형식을 지켜주세요.
 #### 2. 문서 명명법
-- 주제의 메인이 되는 문서는 `document.md`으로 저장 해주세요.
+- 주제의 메인이 되는 문서는 `README.md`으로 저장 해주세요.
 - 기타 부연 설명이 필요한 **붙임**문서는 `clip-{n}.md`로 저장 후, 메인 문서에 연결 해주세요.
 
 #### 3. 예시
 ```
 / (root)
     - [2020-03-20][회의록] 커뮤니티 운영에 관한 회의
-        - document.md
+        - README.md
     - [2020-03-20][기타] 추후 프로젝트 진행에 관한 기획서
-        - document.md
+        - README.md
         - clip-1.md
 ```
